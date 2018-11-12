@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.3.1.js"></script>
+</head>
+<body>
+<div id="outer">
+    <div id="item">
+        <input type="button" value="+" onclick="copyslef(this);">
+        <input type="text" value="default">
+    </div>
+</div>
+
+
+<script>
+    // console.log($(":text").val())
+    // console.log($(":checkbox").val())
+    // $(":text").val("4546")
+    function  copyslef(self) {
+        var c1=$(self).parent().clone();
+        c1.children(":button").val("-").attr("onclick","delself(this)");
+        $("#outer").append(c1)
+    }
+
+    function delself(self) {
+        var c1=$(self).parent().clone();
+        $(self).parent().remove()
+    }
+</script>
+</body>
+</html>

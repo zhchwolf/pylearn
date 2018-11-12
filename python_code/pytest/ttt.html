@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<style>
+.clear10{clear: both; height:10px; overflow:hidden;}
+.yao{float:left;width:100px;}
+</style>
+<div class="yao">大家好</div>
+<div class="yao">我也很好</div>
+<div class="clear10"></div>
+<div class="yao">大家ye好</div>
+</body>
+
+<script>
+    var name ='windows';
+    var object = {
+        name : 'noosh',
+        getnamefun : function () {
+            var that = this;
+            return function () {
+                return that.name;
+            };
+        }
+    }
+alert(object.getnamefun()())
+
+</script>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="button" value="forward_but" onclick="location.replace('www.baidu.com')">
+<input type="button" value="forward_but" onclick="func1()">
+<br>
+<input type="button" value="refresh" onclick="location.reload()">
+
+<select onchange="func2()">
+    <option>北京</option>
+    <option>上海</option>
+    <option>广州</option>
+</select>
+
+<input type="button" value="press" onkeydown="func2()">
+
+<script>
+
+    function func2() {
+        alert("chang!")
+    }
+
+    function func1() {
+        history.go(1)
+    }
+    function getCurrentDate(){
+        var date = new Date();
+        var year = date.getFullYear();
+        var month = date.getMonth()+1;
+        var day = date.getDate();
+        var hour = date.getHours();
+        var min = date.getMinutes();
+        var sec = date.getSeconds();
+        var week = date.getDay();
+        return year+"年"+changeNum(month)+"月"+day+"日 "+hour+":"+min+":"+sec+" "+parseWeek(week);
+    }
+
+    d1 = new Date()
+    alert(d1.toLocaleString())
+
+</script>
+</body>
+</html>

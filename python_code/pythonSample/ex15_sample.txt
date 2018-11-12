@@ -1,0 +1,18 @@
+This is stuff I typed into a file.
+It is really cool stuff.
+Lots and lots of fun to have in here.finish the program running successfully.
+
+Finish the program running successfully.
+
+Finish the program running successfully.
+
+Finish the program running successfully.
+
+Write data into the file successfully.
+first write data, 2013-08-06 14:17:00
+
+Write data into the file successfully.
+second write data.2013-08-06 14:18:00
+
+Write data into the file successfully.
+Haha, input without chinese.

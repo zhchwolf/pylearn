@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        *{
+            margin: 0;
+        }
+        #div1{
+            position: fixed;
+            background-color: gray;
+            width: 100%;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 100;
+        }
+        #div2{
+            position: fixed;
+            background-color: red;
+            width: 100%;
+            z-index: 101;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            opacity: 0.1;
+        }
+        #div3{
+            position: fixed;
+            background-color: rebeccapurple;
+            height: 200px;
+            width:200px;
+            top:40%;
+            left: 40%;
+            z-index: 102;
+            margin-top: -100px;
+            margin-left: -100px;
+        }
+        .hide{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<div id="div1">
+    <input type="button" value="touch me!" onclick="show()">
+</div>
+<div id="div2" class="div hide"></div>
+<div id="div3" class="div hide">
+    <input type="button" value="cancel" onclick="cancel()">
+</div>
+
+<script>
+    function show() {
+        var ele = document.getElementsByClassName("div")
+        for (var i = 0; i <= ele.length; i++) {
+            ele[i].classList.remove("hide")
+        }
+    }
+     function cancel() {
+        var ele = document.getElementsByClassName("div")
+        for (var i = 0; i <= ele.length; i++) {
+            ele[i].classList.add("hide")
+        };
+     }
+</script>
+</body>
+</html>

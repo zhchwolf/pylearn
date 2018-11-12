@@ -1,0 +1,33 @@
+direct load (SQL*Loader)
+direct load INSERT (using APPEND hint)
+CREATE TABLE … AS SELECT
+CREATE INDEX
+ALTER TABLE … MOVE PARTITION
+ALTER TABLE … SPLIT PARTITION
+ALTER INDEX … SPLIT PARTITION
+ALTER INDEX … REBUILD
+ALTER INDEX … REBUILD PARTITION
+INSERT, UPDATE, and DELETE on LOBs in NOCACHE NOLOGGING mode stored out of line
+
+以上列出的语句，其产生undo和redo重做日志几乎可以完全禁绝。因为都是数据载入语句(或者装载索引)其所产生的新的区间(new extent)在执行过程中被标记为无效的(invalid),同时仅有少量的由数据字典变更引起的重做日志会产生。
+
+Nologging模式下数据库操作只有如下几种情况下不产成redo记录：
+１、用sql*load的direct load方式时，不采用redo记录
+已测试
+
+２、用insert的direct方式，即在append方式insert
+已测试
+
+３、create table ….as select….
+已测试
+
+４、create index
+create index  TEST_FUTUFARES2_log  on TEST_FUTUFARES2 (FARE_KIND,FUTUFARE_TYPE) nologging;
+
+创建索引要想产生极少的REDO必须要按上面的那种方式创建索引，按照上面的那种方法去创建索引不管表的日志是处在nologging还是logging状态下都是一样都会产生很少的REDO日志，否则还是会产生大量的REDO日志。
+５、alter table ... move partition
+６、alter table ... split partition
+７、alter index ... split partition
+８、alter index ... rebuild
+９、alter index ... rebuild partition
+１０、INSERT, UPDATE, and DELETE on LOBs in NOCACHE NOLOGGING mode stored out of line

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<select id ="province" onchange="change(this)">
+</select>
+
+<select id="city">
+</select>
+
+
+
+<script>
+    data = {"河北省":["石家庄","唐山"],"山东省":["青岛","济南"]}
+
+    var p1=document.getElementById("province")
+    var c1=document.getElementById("city")
+
+    for (var i in data){
+        var option_pro = document.createElement("option")
+        option_pro.innerHTML=i;
+        p1.appendChild(option_pro)
+    }
+
+    function change(self){
+        //alert(self.selectedIndex)
+        //alert(self.options[self.selectedIndex].innerHTML)
+        var choice =(self.options[self.selectedIndex]).innerHTML
+
+        // var options = c1.children;
+        //
+        // for (var k=0; k<options.length; k++){
+        //     c1.removeChild(options[k--])
+        // }
+
+        c1.options.length = 0;
+
+        for (var i in data[choice]){
+            var option_city = document.createElement("option")
+            option_city.innerHTML=data[choice][i]
+            c1.appendChild(option_city)
+        }
+    }
+
+</script>
+</body>
+</html>
+
+
+    <!--<option value="beijing">北京</option>-->
+    <!--<option value="shangdong">山东</option>-->
+    <!--<option value="hebei">河北</option>-->

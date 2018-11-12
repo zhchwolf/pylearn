@@ -1,0 +1,31 @@
+INCA2000
+
+This is an early prototype for an arcade bullet-dodger possibly as part 
+of something larger but probably not. Everything is hand-crafter by 
+Hendrik-Jan Hilberding.
+Email cupz@hushmail.com for questions or if you want to jam.
+
+HOW TO RUN
+--------------
+Linux/Unix: You are a cool person and you just need python(2 or 3) and 
+pygame.
+
+Windows/Mac: Consider Linux/Unix! Or jump through coorporate hoops to 
+get this game to run! Internet-search the terms pygame and your OS.
+
+
+HOW TO PLAY
+---------------
+This game as it is now is best played as a gameplay-puzzle and this 
+section is a spoiler of sorts. Can you figure it out for yourself?
+
+No? Then read on!
+
+Move left and right by pressing said arrow keys on your keyboard. 
+You can fire by pressing space. 
+Reload your gun with the left Ctrl key.
+Your weapon holds 4 rounds of ammo.
+Holding up and down allows you to dodge bullets.
+When an enemy spots you it will aim for your current position.
+His/her/its aim is displayed over their head as an arrow. 
+Switch position before he/she/it fires to dodge the projectiles.

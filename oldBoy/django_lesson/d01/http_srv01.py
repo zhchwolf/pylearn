@@ -4,7 +4,7 @@ def handle_request(client):
 
     buf = client.recv(1024)
     client.send("HTTP/1.1 200 OK\r\n\r\n".encode("utf8"))
-    with open("index01.html","rb") as f:
+    with open("index1.html","rb") as f:
         data = f.read()
     client.send(data)
 

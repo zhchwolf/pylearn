@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render,HttpResponse
 from blog import models
 # Create your views here.
 info_list=[]
@@ -20,3 +20,6 @@ def userInfo(req):
         )
     info_list = models.UserInfo.objects.all()
     return render(req,"userInfo.html",{"info_list":info_list})
+
+def introduce(req):
+    return HttpResponse("OK")

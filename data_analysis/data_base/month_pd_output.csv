@@ -1,0 +1,35 @@
+X-date,Y-Mbyte,Date,Month,Ref:,Page,Company,Size Kbyte,Cost US $,Speed nsec, Memory Type,JDR Chip Prices Size Kbit,US$,nsec
+1973.0,399360.0,1973,Jan,PDP8/e User Price List,,DEC,12.0,4680.0,,Core memory 8Kwords x 12 bit,,,
+1975.0,421888.0,1975,Jan,Radio-Electronics,,MITS,0.25,103.0,1000,Altair 8800 256 Byte Static Board,,,
+1976.0,40704.0,1976,Jan,,,MITS,4.0,159.0,,Altair 4K Static (2102) RAM Board,,,
+1979.0,10528.0,1979,Jan,Interface Age,124.0,,32.0,329.0,,,,,
+1980.0,6480.0,1980,Jan,Interface Age,121.0,,64.0,405.0,,,,,
+1981.0,8800.0,1981,Jan,Interface Age,141.0,,64.0,550.0,,,,,
+1982.0,3520.0,1982,Jan,Interface Age,135.0,,256.0,880.0,,,,,
+1983.0,2396.0,1983,Jan,Interface Age,153.0,,256.0,599.0,,,,,
+1984.0,1379.0,1984,Jan,BYTE,64.0,,384.0,517.0,,,,,
+1985.0,880.0,1985,Jan,BYTE,470.0,Do Kay,512.0,440.0,,IBM 512K $199.95+8*29.97,,,
+1986.0,300.0,1986,Jan,BYTE,,Jade,2048.0,599.0,,2MB J-RAM-2 A&T $599,256,2.95,150.0
+1987.0,176.0,1987,Jan,BYTE,477.0,JDR,3072.0,528.5,,JDR AT Multifuntion $139.95+49.95+3*36*2.95,256,2.95,150.0
+1988.0,163.0,1988,Jan,BYTE,,JDR,3072.0,488.47,,JDR MCT-ATMF 3MB Multifunction,256,2.95,150.0
+1989.0,505.0,1989,Jan,BYTE,,JDR,3072.0,1514.5,,JDR MCT-ATMF 3MB Multifunc $169.90+3*36*12.45,256,12.45,150.0
+1990.0,106.0,1990,Jan,BYTE,,Unitex,8192.0,851.0,,Bocaram AT 8MB - $149+72*9.75,1024,11.95,120.0
+1991.0,44.5,1991,Jan,BYTE,393.0,IC Express,1024.0,44.5,80,1Mx9-80 SIMM @ $44.50,1024,7.95,120.0
+1992.0,36.3,1992,Jan,BYTE,380.0,AMT International,4096.0,145.0,80,4Mx9-80 SIMM @ $145,1024,5.49,100.0
+1993.0,33.1,1993,Jan,BYTE,307.0,Cititronics,16384.0,529.0,,4Mx36-?? SIMM @ $526,36864,149.95,80.0
+1994.0,35.8,1994,Jan,BYTE,290.0,West Coast Micro,4096.0,143.0,70,4Mx3x3-70 SIMM @ $143,36864,159.95,80.0
+1995.0,32.3,1995,Jan,BYTE,256.0,Nevada,4096.0,129.0,80,4Mx9-80 SIMM @ $129,36864,159.95,70.0
+1996.0,29.9,1996,Jan,BYTE,186.0,First Source International,16384.0,478.0,70,4Mx36-70 SIMM [72 pin] @ $478,147456,689.0,70.0
+1997.0,4.63,1997,Jan,BYTE,153.0,First Source International,8192.0,37.0,60,2Mx32-60 SIMM EDO [72 pin] @ $37,,,
+1998.0,2.16,1998,20-Jan,Pcmag,277.0,Computer America Inc,32768.0,69.0,,8Mx32-? SIMM EDO [72 pin] @ $69,,,
+2000.0,1.56,2000,18-Jan,Pcmag,14.0,Crucial Technology,65536.0,99.89,,64 MB DIMM PC-100 @ $99.89,,,
+2001.0,0.75,2001,2-Jan,Pcmag,19.0,Crucial Technology,65536.0,47.69,,64 MB DIMM PC-133 @ $47.69,discount for web purchase,,
+2004.0,0.174,2004,Jan,Pcmag,143.0,NewEgg.com,524288.0,89.0,,512 MB DIMM DDR-3200 @ $89,,,
+2007.0,0.082,2007,28-Jan,Web,,NewEgg.com,1048576.0,83.98,,1GB DIMM DDR-400 @$78.99 + 4.99 shipping,PQi,,
+2008.0,0.0232,2008,18-Jan,Web,,NewEgg.com,4194304.0,94.99,5-5-5-15,2x2 GB DIMM DDR2-800 @ $94.99 + free shipping,G.Skill,,
+2009.0,0.0098,2009,19-Jan,Web,,NewEgg.com,4194304.0,39.99,5-5-5-15,2x2 GB DIMM DDR2-800 @ $39.99 + free shipping,G.Skill,,
+2010.0,0.019,2010,15-Jan,Web,,NewEgg.com,4194304.0,77.99,5-5-5-15,2x2 GB DIMM DDR2-800 @ $77.99 + free shipping,Wintec,,
+2011.0,0.01,2011,21-Jan,Web,,NewEgg.com,4194304.0,40.98,cas 9,2x2 GB DIMM DDR3-1333 @ $40.98 + free shipping,A-Data,,
+2012.0,0.0049,2012,12-Jan,Web,,NewEgg.com,8388608.0,39.99,9-9-9-24,2x4 GB DIMM DDR3-1600 @ $39.99 + free shipping,Corsair,,
+2013.0,0.0043,2013,17-Jan,Web,,NewEgg.com,8388608.0,34.99,9-9-9-24,2x4 GB DIMM DDR3-1600 @ $34.99 + free shipping,Wintec One,,
+2015.0,0.0078,2015,22-Jan,Web,,NewEgg.com,8388608.0,63.99,cas 10,1x8 GB DIMM DDR3-1866 @ $63.99 + free shipping,Hypexx Fury,,

@@ -1,0 +1,11 @@
+X-date,Y-Mbyte,Date,Month,Ref:,Page,Company,Size Kbyte,Cost US $,Speed nsec, Memory Type,JDR Chip Prices Size Kbit,US$,nsec
+2004,0.174,2004,Jan,Pcmag,143,NewEgg.com,524288,89,,512 MB DIMM DDR-3200 @ $89,,,
+2004.08,0.148,2004,17-Feb,Pcmag,78,NewEgg.com,524288,76,,512 MB DIMM DDR-3200 @ $76,GEIL,,
+2004.17,0.146,2004,16-Mar,Pcmag,115,NewEgg.com,524288,75,,512 MB DIMM DDR-3200 @ $75,GEIL,,
+2004.33,0.156,2004,4-May,Pcmag,19,NewEgg.com,524288,80,,512 MB DIMM DDR-3200 @ $76,GEIL,,
+2004.42,0.203,2004,8-Jun,Pcmag,19,NewEgg.com,524288,104,,512 MB DIMM DDR-3200 @ $104,GEIL,,
+2004.5,0.176,2004,July,Pcmag,19,NewEgg.com,524288,90,,512 MB DIMM DDR-3200 @ $90,Kingston,,
+2005.25,0.185,2005,12-Apr,Pcmag,24,NewEgg.com,1048576,189,,2x512 MB DIMM DDR-3200 @ $90,Mushkin,,
+2005.42,0.149,2005,7-Jun,Pcmag,20,NewEgg.com,1048576,153,,1 GB DIMM DDR PC-3200Pro @ $153,Corsair,,
+2005.83,0.116,2005,8-Nov,Pcmag,67,NewEgg.com,1048576,119,,1 GB DIMM DDR2-533 @ $119,,,
+2005.92,0.185,2005,6-Dec,Pcmag,139,NewEgg.com,1048576,189,,2x512 MB DIMM DDR-4800 @ $189,,,

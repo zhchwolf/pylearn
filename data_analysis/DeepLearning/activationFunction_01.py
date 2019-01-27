@@ -26,3 +26,19 @@ y = step_function_02(x)
 plt.plot(x,y)
 plt.ylim(-0.1,1.1)
 plt.show()
+
+def sigmoid(x):
+    return 1/(1 + np.exp(-x))
+x1 = np.array([-1.0,1.0,2.0])
+print(sigmoid(x1))
+
+t = np.array([1.0, 2.0, 3.0])
+print(1.0/(1.0 + t))
+
+t = np.array([1.0, 2.0, 3.0])
+print(t)
+1.0 + t
+print(t)
+t = 1.0 / t
+print(t)
+

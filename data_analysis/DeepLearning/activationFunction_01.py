@@ -36,9 +36,28 @@ t = np.array([1.0, 2.0, 3.0])
 print(1.0/(1.0 + t))
 
 t = np.array([1.0, 2.0, 3.0])
-print(t)
 1.0 + t
 print(t)
 t = 1.0 / t
 print(t)
+
+x2 = np.arange(-5.0, 5.0, 0.1)
+y = sigmoid(x2)
+plt.plot(x,y)
+plt.ylim(-0.1,1.1)
+plt.show()
+
+def relu(x):
+    return np.maximum(0,x)
+
+x3 = np.array([1,2])
+print(x3.shape)
+w = np.array([[1,3,5],[2,4,6]])
+print(w.shape)
+y = np.dot(x3,w)
+print(y)
+
+def identify_function(x):
+    return x
+
 

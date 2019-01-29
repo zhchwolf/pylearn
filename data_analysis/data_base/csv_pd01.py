@@ -8,7 +8,7 @@ import csv
 # import pandas
 # import xlrd
 # import xlwt
-from xlrd import open_workbook
+from xlrd import open_workbook, xldate_as_tuple
 from xlwt import Workbook
 '''
 xlrd and xlwt is work for xls file, not xlsx file.

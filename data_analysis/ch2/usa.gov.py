@@ -4,14 +4,15 @@
 import json
 from collections import defaultdict as dd
 from collections import Counter
-import pandas as pd; import numpy as np
+import pandas as pd
+import numpy as np
 from pandas import DataFrame, Series
 import matplotlib.pyplot as plt
 
-path = 'd:\pycharm_data\data_analysis\ch2\example.txt'
+path = 'd:\\pycharm_data\\data_analysis\\ch2\\example.txt'
 records = [json.loads(line) for line in open(path)]
-#print(records[0])
-#print(len(records))
+# print(records[0])
+# print(len(records))
 time_zones = [rec['tz'] for rec in records if 'tz' in rec]
 #print(time_zones)
 

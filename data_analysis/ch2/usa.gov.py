@@ -32,7 +32,7 @@ def get_count2(seq):
         counts[x] += 1
     return counts
 count2 = get_count2(time_zones)
-#print(count2)
+print(count2)
 
 def top_counts(count_dict, n=10):
     value_key_pairs = [(count, tz) for tz, count in count_dict.items()]
@@ -84,6 +84,7 @@ movies = pd.read_table('movieslens/movies.dat', sep='::', header=None, names=mna
 mdata = pd.merge(pd.merge(ratings, users), movies)
 #print(mdata)
 mean_ratings = mdata.pivot_table('rating', index='title', columns='gender', aggfunc='mean')
+mean_ratings2 = mdata.pivot_table('rating', index='title', columns='gender', aggfunc='mean')
 #print(mean_ratings[:5])
 ratings_by_title = mdata.groupby('title').size()
 #print(ratings_by_title[:5])

@@ -1,4 +1,4 @@
-aiohttp==1.2.0
+aiohttp==3.7.4
 SQLAlchemy==1.1.4
 PyMySQL==0.7.9
 Sanic==0.2.0
